@@ -1,0 +1,409 @@
+@font-face { 
+   font-family: buttonStuff; 
+   src: url(./Assets/Fonts/Myfont.ttf);
+ } 
+Body {
+  background-image: url(./Assets/BG.png);
+}
+#wholePage {
+  width: 1267px
+  height: 841px
+}
+
+#coreBg{
+  width:186;
+  height: 841px;
+  align-items: center;
+  display: flex;
+  float: left;
+}
+#corecontainer {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+    width: 175px;
+    height: 85px;
+  align-items: center;
+  justify-content: center;
+    background: rgba(242, 242, 242, 0.45);
+    border-radius: 8px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#coresetimage {
+  display: flex;
+  height: 85px;
+}
+		
+#largeBg{
+  width:181;
+  height: 841px;
+  align-items: center;
+  display: flex;
+  float: left;
+}
+#largeContainer {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+    width: 170px;
+    height: 85px;
+  align-items: center;
+  justify-content: center;
+    background: rgba(242, 242, 242, 0.45);
+    border-radius: 8px;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#largesetimage {
+  display: flex;
+  height: 85px;
+}	
+#largeBg2{
+  width:181;
+  height: 841px;
+  align-items: center;
+  display: flex;
+  float: left;
+}	
+#largeContainer2 {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+    width: 170px;
+    height: 85px;
+  align-items: center;
+  justify-content: center;
+    background: rgba(242, 242, 242, 0.45);
+    border-radius: 8px;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#largesetimage2 {
+  display: flex;
+  height: 85px;
+        }
+#smallBg{
+  width:181;
+  height: 841px;
+  align-items: center;
+  display: flex;
+  float: left;
+}	
+#smallContainer {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+    width: 175px;
+    height: 85px;
+  align-items: center;
+  justify-content: center;
+    background: rgba(242, 242, 242, 0.45);
+    border-radius: 8px;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#smallsetimage {
+  display: flex;
+  height: 85px;
+        }
+#smallBg2{
+  width:181;
+  height: 841px;
+  align-items: center;
+  display: flex;
+  float: left;
+}	
+#smallContainer2 {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+    width: 170px;
+    height: 85px;
+  align-items: center;
+  justify-content: center;
+    background: rgba(242, 242, 242, 0.45);
+    border-radius: 8px;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#smallsetimage2 {
+  display: flex;
+  height: 85px;
+        }	
+#smallBg3{
+  width:181;
+  height: 841px;
+  align-items: center;
+  display: flex;
+  float: left;
+}	
+#smallContainer3 {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+    width: 170px;
+    height: 85px;
+  align-items: center;
+  justify-content: center;
+    background: rgba(242, 242, 242, 0.45);
+    border-radius: 8px;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  object-fit: contain;
+}	
+#smallsetimage3 {
+  display: flex;
+  height: 85px;
+  object-fit: contain;
+}		
+#smallBg4{
+  width:181;
+  height: 841px;
+  align-items: center;
+  display: flex;
+  float: left;
+}	
+#smallContainer4 {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+    width: 170px;
+    height: 85px;
+  align-items: center;
+  justify-content: center;
+    background: rgba(242, 242, 242, 0.45);
+    border-radius: 8px;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}		
+#smallsetimage4 {
+  display: flex;
+  height: 85px;
+}	
+#number{
+  font-size:90px;
+}
+#number2{
+  font-size:90px;
+}
+#number3{
+  font-size:90px;
+}
+#number4{
+  font-size:90px;
+}
+#timecontainer{
+  width: 350px;
+  height: 98px;
+  position: absolute;
+    top: 12;
+    left: 14px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 8px;
+  opacity: 0.5;
+  background: rgb(242, 242, 242);
+  font-size: 46px;
+}
+#timecontainer:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  opacity: .9;
+}
+.cardpoollink{
+  width: 350px;
+  height: 56px;
+  position: absolute;
+    bottom: 5;
+    left: 924px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 8px;
+  opacity: 0.5;
+  background: rgb(242, 242, 242);
+  font-size: 42px;
+}
+.cardpoollink:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  opacity: .9;
+}
+
+.ViewCurrentSeason{
+  width: 175px;
+  height: 56px;
+  position: absolute;
+    top: 12;
+    left: 1105px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 8px;
+  opacity: 0.5;
+  background: rgb(242, 242, 242);
+  font-size: 24px;
+}
+.ViewCurrentSeason:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  opacity: .9;
+}
+
+.Core{
+  width: 175px;
+  height: 49px;
+  position: absolute;
+    bottom: 5;
+    left: 14px;
+  border-radius: 8px;
+  opacity: 0.5;
+  background: rgb(242, 242, 242);
+  font-size: 24px;
+}
+.Core:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  opacity: .9;
+}
+.Large{
+  width: 170px;
+  height: 49px;
+  position: absolute;
+    bottom: 46;
+    left: 200px;
+    top: 12;
+  border-radius: 8px;
+  opacity: 0.5;
+  background: rgb(242, 242, 242);
+  font-size: 24px;
+}
+.Large:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  opacity: .9;
+}
+.Large1Reroll{
+  width: 170px;
+  height: 49px;
+  position: absolute;
+    bottom: 5;
+    left: 200px;
+  border-radius: 8px;
+  opacity: 0.5;
+  background: rgb(242, 242, 242);
+  font-size: 24px;
+}
+.Large1Reroll:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  opacity: .9;
+}
+.Large2Reroll{
+  width: 170px;
+  height: 49px;
+  position: absolute;
+    bottom: 5;
+    left: 381px;
+  border-radius: 8px;
+  opacity: 0.5;
+  background: rgb(242, 242, 242);
+  font-size: 24px;
+}
+.Large2Reroll:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  opacity: .9;
+}
+.Small{
+  width: 170px;
+  height: 49px;
+  position: absolute;
+    top: 12;
+    left: 562px;
+  border-radius: 8px;
+  opacity: 0.5;
+  background: rgb(242, 242, 242);
+  font-size: 24px;
+}
+.Small:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  opacity: .9;
+}
+.Small1Reroll{
+  width: 170px;
+  height: 49px;
+  position: absolute;
+    bottom: 5;
+    left: 562px;
+  border-radius: 8px;
+  opacity: 0.5;
+  background: rgb(242, 242, 242);
+  font-size: 24px;
+}
+.Small1Reroll:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  opacity: .9;
+}
+.Small2Reroll{
+  width: 170px;
+  height: 49px;
+  position: absolute;
+    bottom: 5;
+    left: 743px;
+  border-radius: 8px;
+  opacity: 0.5;
+  background: rgb(242, 242, 242);
+  font-size: 24px;
+}
+.Small2Reroll:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  opacity: .9;
+}
+.Small3Reroll{
+  width: 170px;
+  height: 49px;
+  position: absolute;
+    bottom: 5;
+    left: 924px;
+  border-radius: 8px;
+  opacity: 0.5;
+  background: rgb(242, 242, 242);
+  font-size: 24px;
+}
+.Small3Reroll:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  opacity: .9;
+}
+.Small4Reroll{
+  width: 170px;
+  height: 49px;
+  position: absolute;
+    bottom: 5;
+    left: 1105px;
+  border-radius: 8px;
+  opacity: 0.5;
+  background: rgb(242, 242, 242);
+  font-size: 24px;
+}
+.Small4Reroll:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  opacity: .9;
+}
+.All{
+  width: 175px;
+  height: 49px;
+  position: absolute;
+    top: 12;
+    left: 14px;
+  border-radius: 8px;
+  opacity: 0.5;
+  background: rgb(242, 242, 242);
+  font-size: 24px;
+}
+.All:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  opacity: .9;
+}
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
